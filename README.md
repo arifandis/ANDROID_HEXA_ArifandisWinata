@@ -4,7 +4,7 @@ Objective: This is the required task to be finished as part of Hexavara's first 
 
 IDE used: Android Studio version 3.1.2 Language(s): Java and XML
 
-Started: Wed, 12 Sep 2018 Finished: Mon, 14 Sep 2018
+Started: Wed, 12 Sep 2018 Finished: Fri, 14 Sep 2018
 
 Type: Android Application Min. SDK: 19 (KitKat)
 

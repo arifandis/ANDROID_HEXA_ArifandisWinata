@@ -86,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onFailure(Call<Login> call, Throwable t) {
                         Log.e("Retrofit Post", t.toString());
                         Snackbar.make(parentView,t.toString(),Snackbar.LENGTH_SHORT).show();
+                        loginProgress.setVisibility(View.GONE);
                 }
             });
     }

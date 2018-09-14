@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".main.MainActivity">
+    tools:context=".main.MainActivity"
+    android:id="@+id/loginView">
 
     <EditText
         android:id="@+id/etUsername"
@@ -14,7 +15,7 @@
         android:layout_marginTop="180dp"
         android:hint="Username"
         android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"/>
+        android:layout_marginLeft="20dp" />
 
     <EditText
         android:id="@+id/etPassword"
@@ -46,6 +47,7 @@
         android:layout_height="100dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="70dp" />
+        android:layout_marginBottom="70dp"
+        android:visibility="gone"/>
 
 </RelativeLayout>
